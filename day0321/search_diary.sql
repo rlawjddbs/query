@@ -1,6 +1,6 @@
 select * from diary;
 
-
+                                   
 select num, subject, writer, e_year, e_month, e_day, w_date
 from (
 select num, subject, writer, e_year, e_month, e_day, w_date
