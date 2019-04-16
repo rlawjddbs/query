@@ -12,7 +12,6 @@ create or replace procedure insert_test_proc(
 	empno number,ename varchar2, sal number, job varchar2, msg out varchar2, row_cnt out number)
 is
 	temp_sal number := sal;
-
 begin
 	row_cnt := 0;
 	
@@ -29,12 +28,9 @@ begin
 			values(empno, initcap(ename), sysdate, temp_sal, job); /* initcap(문자열) - 첫 글자를 대문자로 바꾼다. */
 			
 			row_cnt := sql%rowcount; /* 수행한 횟수 (sql: 암시적 커서) - http://www.gurubee.net/lecture/1062 */
-			
 			commit;
-			
-			msg := empno||'번 사원 정보가 추가되었습니다.';
-			
-			
+		
+			msg := empno||'번 사원 정보가 추가되었습니다.';			
 		else
 			msg := job||'은 입력 가능한 직급이 아닙니다.';
 		end if;
