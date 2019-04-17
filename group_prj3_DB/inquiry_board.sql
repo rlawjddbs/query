@@ -34,7 +34,7 @@ create table inquiry_board(
 	views number(4),
 	admin_id varchar2(10),
 	r_contents varchar2(4000),
-	r_date date default sysdate,
+	r_date date,
 	constraint pk_inquiry_num primary key(num),
 	constraint fk_user_id_to_inquiry foreign key(user_id) references member(user_id),
 	constraint fk_admin_id_to_inquiry foreign key(admin_id) references admin(admin_id)
