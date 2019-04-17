@@ -26,12 +26,16 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="inquiry_board.exerd" partName="inquiry_board.exerd" path="C:/dev/query/workspace/erd_prj/inquiry_board.exerd" title="inquiry_board.exerd" tooltip="erd_prj/inquiry_board.exerd" workbook="DefaultEditorWorkbook">
+<editor id="com.tomato.exerd.editor.DiagramEditor" name="inquiry_board.exerd" partName="inquiry_board.exerd" path="C:/dev/query/workspace/erd_prj/inquiry_board.exerd" title="inquiry_board.exerd" tooltip="erd_prj/inquiry_board.exerd" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/erd_prj/inquiry_board.exerd"/>
+</editor>
+<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="3rd_project_190415F.exerd" partName="3rd_project_190415F.exerd" title="3rd_project_190415F.exerd" tooltip="C:\dev\query\workspace\erd_prj\3rd_project_190415F.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/dev/query/workspace/erd_prj/3rd_project_190415F.exerd"/>
 </editor>
 </editors>
 <views>
@@ -181,6 +185,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/erd_prj/portfolio.exerd"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/erd_prj/copy_of_portfolio.exerd"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/erd_prj/inquiry_board.exerd"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" uri="file:/C:/dev/query/workspace/erd_prj/3rd_project_190415F.exerd"/>
 </editors>
 <item historyLabel="test.exerd" index="0"/>
 <item historyLabel="reverse.exerd" index="1"/>
@@ -201,7 +206,8 @@
 <item historyLabel="portfolio.exerd" index="10"/>
 <item historyLabel="copy_of_portfolio.exerd" index="11"/>
 <item historyLabel="copy_of_portfolio.exerd" index="11"/>
-<item active="true" historyLabel="inquiry_board.exerd" index="12"/>
+<item historyLabel="inquiry_board.exerd" index="12"/>
+<item active="true" historyLabel="3rd_project_190415F.exerd" index="13"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -219,6 +225,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="3rd_project_190415F.exerd" tooltip="C:\dev\query\workspace\erd_prj\3rd_project_190415F.exerd">
+<persistable uri="file:/C:/dev/query/workspace/erd_prj/3rd_project_190415F.exerd"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="inquiry_board.exerd" tooltip="erd_prj/inquiry_board.exerd">
 <persistable path="/erd_prj/inquiry_board.exerd"/>
 </file>
